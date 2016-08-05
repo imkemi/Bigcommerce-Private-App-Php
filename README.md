@@ -60,9 +60,9 @@ for connecting to a store on the Bigcommerce platform:
 ### Basic Auth
 ~~~php
 Bigcommerce::configure(array(
-	'store_url' => 'https://store.mybigcommerce.com',
-	'username'	=> 'admin',
-	'api_key'	=> 'd81aada4xc34xx3e18f0xxxx7f36ca'
+	'store_url' => 'https://your_store.mybigcommerce.com',
+	'username'	=> 'user_name',
+	'api_key'	=> '******************************'
 ));
 ~~~
 
