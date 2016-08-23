@@ -98,8 +98,8 @@ To update a single resource:
 ~~~php
 $product = Bigcommerce::getProduct(11);
 
-$product->name = "MacBook Air";
-$product->price = 99.95;
+$product->name = "Sumsung Galexy Note";
+$product->price = 699.95;
 $product->update();
 ~~~
 
@@ -108,17 +108,17 @@ you want to change to the global update method:
 
 ~~~php
 $fields = array(
-	"name"  => "MacBook Air",
+	"name"  => "Sumsung Galexy Note",
 	"price" => 999.95
 );
 
-Bigcommerce::updateProduct(11, $fields);
+Bigcommerce::updateProduct(16, $fields);
 ~~~
 
 Creating new resources (POST)
 -----------------------------
 $fields = array(
-	"name" => "Apple"
+	"name" => "Iphone 6S"
 );
 
 Bigcommerce::createProduct($fields);
@@ -129,6 +129,6 @@ Deleting resources and collections (DELETE)
 To delete a single resource you can call the delete method on the resource object:
 
 ~~~php
-$category = Bigcommerce::getCategory(22);
+$category = Bigcommerce::getCategory(50);
 $category->delete();
 ~~~
