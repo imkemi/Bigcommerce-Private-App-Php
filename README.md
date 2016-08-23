@@ -20,12 +20,6 @@ Requirements for this connection
 To generate an API key, go to Control Panel > Users > Edit User and make sure
 the 'Enable the XML API?' is ticked.
 
-**To connect to the API with OAuth you will need the following:**
-
-- client_id
-- auth_token
-- store_hash
-
 Installation
 ------------
 
